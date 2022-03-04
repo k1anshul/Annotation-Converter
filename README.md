@@ -1,4 +1,4 @@
-# Anotation-Converter
+# Annotation-Converter
 
 ## Setting up the environments
 
