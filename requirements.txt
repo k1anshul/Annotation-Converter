@@ -1,0 +1,9 @@
+# pip install -r requirements.txt
+
+tqdm
+parso>=0.2.0
+pyyaml
+argparse
+pylabel
+pyfiglet
+termcolor

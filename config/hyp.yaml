@@ -1,0 +1,23 @@
+#-----------------------------------------------------------------------------------------
+################################# Configuration #########################################
+#-----------------------------------------------------------------------------------------
+
+image_path: D:\CV_DL\Object_Detection\Annotataion_Converter\Annotataion_Converter\sample_data     # Image Path
+annot_path: D:\CV_DL\Object_Detection\Annotataion_Converter\Annotataion_Converter\sample_data     # Annotation path
+output_path: D:\CV_DL\Object_Detection\Annotataion_Converter\Annotataion_Converter\YOLO2COCO      # Output folder path
+
+converter: YOLO2COCO                    # YOLO2COCO, YOLO2VOC, COCO2YOLO, COCO2VOC, VOC2YOLO, VOC2COCO
+class_names: ['FB','OPT','WF','PFB']    # Class Names in annotation order
+image_ext: 'jpg,jpeg,png'               # Image extension
+
+
+#-----------------------------------------------------------------------------------------
+############################### Brief Description #######################################
+#-----------------------------------------------------------------------------------------
+
+# image_path : Full path of folder containing images. You don't need to separate images and annotation of they are in same folder.
+# annot_path : Full path of folder containing annotations. In case of COCO2YOLO and COCO2VOC provide json file path in annot_path.
+# output_path :Full path of output folder where images and annotations wants to save.
+# converter : Select one of six converter available i.e. YOLO2COCO, YOLO2VOC, COCO2YOLO, COCO2VOC, VOC2YOLO, VOC2COCO
+# class_names : Provide class names used for annotations, in case of YOLO2COCO and YOLO2VOC order of names should same as class.txt
+# image_ext : Extension of the images present in image_path folder, you can provide multiple extension as shown above.
