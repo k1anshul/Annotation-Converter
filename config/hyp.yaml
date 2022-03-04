@@ -7,7 +7,7 @@ annot_path: D:\CV_DL\Object_Detection\Annotataion_Converter\Annotataion_Converte
 output_path: D:\CV_DL\Object_Detection\Annotataion_Converter\Annotataion_Converter\YOLO2COCO      # Output folder path
 
 converter: YOLO2COCO                    # YOLO2COCO, YOLO2VOC, COCO2YOLO, COCO2VOC, VOC2YOLO, VOC2COCO
-class_names: ['FB','OPT','WF','PFB']    # Class Names in annotation order
+class_names: ['start fish','cots fish']    # Class Names in annotation order
 image_ext: 'jpg,jpeg,png'               # Image extension
 
 
