@@ -16,7 +16,7 @@ step 3: Once environment is activate using requirements.txt to install all packa
     
 ##  How to run the main.py
 
-To run main.py file you will need to set hyperparameter needs to use in main.py file which are at config\hyp.yaml (follow hyp.yaml from that folder to know more). once you finished setting them up use following command to starts model training:
+To run main.py file you will need to set hyperparameter needs to use in main.py file which are at config\hyp.yaml (follow hyp.yaml from that folder to know more). once you finished setting them up use following command to starts annotation conversion:
 
     python main.py
     
